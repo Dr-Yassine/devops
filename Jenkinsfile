@@ -9,13 +9,13 @@ pipeline{
         }
         stage("build"){
             steps{
-                sh 'cd devops/testapp && npm install'
+                sh 'cd testapp && npm install'
                 echo 'building done'
             }
         }
         stage("deploy"){
             steps{
-                sh 'cd devops/testapp  && npm start'
+                sh 'cd testapp  && npm start'
                 echo 'deployment done'
             }
         }
