@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with ahmed abdsamad
+          Learn React with ahmed abdsamad yasine yakreh letoile 
         </a>
       </header>
     </div>
